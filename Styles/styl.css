@@ -64,7 +64,7 @@ header{
 }
 
 .name-text{
-    width: 710px;
+    width: 580px;
 }
 
 .introduction-part .name-text h3{
@@ -92,17 +92,26 @@ header{
 }
 
 .introduction-part .image{
-    width: 870px;
-    padding-left: 70px;
+    width: 460px;
 }
 
 .introduction-part .image img{
-    padding-left: 450px;
     vertical-align: middle;
+    margin-left: 100px;
 }
 
 #about{
     padding-top: 130px;
+}
+
+.about-container{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 131px 130px;
+    background-color:   #FFF8F3;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
 }
 
 #about .section-heading h2{
@@ -116,13 +125,7 @@ header{
     line-height: 30px;
     margin-bottom: 50px;
 }
-.about-container{
-    padding: 131px 158px;
-    background-color:   #FFF8F3;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-}
+
 
 .about-info {
     display: flex;
