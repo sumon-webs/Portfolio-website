@@ -18,7 +18,7 @@ header{
 }
 
 .nav{
-    width: 1260px;
+    width: 71%;
     max-width: 1130px;
     display: flex;
     justify-content: space-between;
@@ -48,24 +48,23 @@ header{
     background-color: #FD6E0A;
     color: white;
     border: none;
-    padding: 14px 29px;
+    padding: 14px 18px;
     border-radius: 6px;
     font-weight: 600px;
     font-size: 20px;
 }
 
 .introduction-part{
-    max-width: 1360px;
+    width: 1130px;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
-.introduction-part .name-text{
-    width: 1000px;
-    margin-left: 80px;
+.name-text{
+    width: 710px;
 }
 
 .introduction-part .name-text h3{
@@ -86,10 +85,15 @@ header{
     padding-bottom: 30px;
     line-height: 30px;
 }
+.button{
+    width: 100%;
+    display: flex;
+    gap: 23px;
+}
 
 .introduction-part .image{
     width: 870px;
-    /* margin-left: 400px; */
+    margin-left: 70px;
 }
 
 .introduction-part .image img{
@@ -244,7 +248,7 @@ header{
 }
 
 footer{
-    margin-top: 113px;
+    margin: 113px 0px;
     background-color: #FFF8F3;
 }
 
