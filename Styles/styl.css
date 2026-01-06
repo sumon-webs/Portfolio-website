@@ -13,7 +13,7 @@ header{
     background-color: #FFF8F3;
     background: url(../images/developer.png), url(../images/header_bg.png),#FFF8F3;
     background-repeat: no-repeat;
-    background-position: left top, bottom right;
+    background-position:23px 38px, bottom right;
     /* margin-bottom: 130px; */
 }
 
@@ -48,10 +48,10 @@ header{
     background-color: #FD6E0A;
     color: white;
     border: none;
-    padding: 14px 18px;
+    padding: 12px 6px;
     border-radius: 6px;
     font-weight: 600px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .introduction-part{
@@ -93,7 +93,7 @@ header{
 
 .introduction-part .image{
     width: 870px;
-    margin-left: 70px;
+    padding-left: 70px;
 }
 
 .introduction-part .image img{
@@ -224,7 +224,7 @@ header{
 
 .education h4{
     margin-bottom: 10px;
-     color: #464444;
+     color: #474747;
 }
 
 
@@ -272,7 +272,7 @@ footer{
 }
 
 .social p{
-     color: #757575;
+     color: #474747;
     line-height: 25px;
     margin-bottom: 30px;
 }
@@ -292,4 +292,5 @@ footer{
     margin-bottom: 12px;
     border: none;
     border-radius: 5px;
+    color: #757575;
 }
