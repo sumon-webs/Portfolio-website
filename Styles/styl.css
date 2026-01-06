@@ -8,12 +8,13 @@ body{
     font-optical-sizing: auto;
     box-sizing: border-box;
 }
+
 header{
     background-color: #FFF8F3;
     background: url(../images/developer.png), url(../images/header_bg.png),#FFF8F3;
     background-repeat: no-repeat;
     background-position: left top, bottom right;
-    margin-bottom: 130px;
+    /* margin-bottom: 130px; */
 }
 
 .nav{
@@ -96,91 +97,195 @@ header{
     vertical-align: middle;
 }
 
-.about-container {
-    width: 800px;
-    margin: 0 auto;
-    background-color: #FFF8F3;
-    padding: 130px 157px;
-    border-radius: 5px;
-    margin-bottom: 130px;
+#about{
+    padding-top: 130px;
 }
 
-.about-container h2{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
+#about .section-heading h2{
+    font-size: 35px;
     color: #181818;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-.about-container p{
-    text-align: center;
+#about .section-heading p{
     color: #757575;
-    padding-bottom: 50px;
     line-height: 30px;
+    margin-bottom: 50px;
 }
-
-.about-container table{
-    border-spacing: 23px 5px;
-}
-
-.about-container table tr th{
-    color: #757575;
-    font-weight: normal;
-}
-
-.about-container table tr td{
-    font-weight: bold;
-}
-
-.my-work{
-    width: 1100px;
+.about-container{
+    padding: 131px 158px;
+    background-color:   #FFF8F3;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 0;
-    margin-bottom: 130px;
+    text-align: center;
 }
 
-.my-work h2{
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 30px;
+.about-info {
+    display: flex;
+    justify-content: space-around;
 }
 
-.my-work .p{
+.about-info p{
+    color: #757575;
+    margin-bottom: 7px;
+    font-weight: 600px;
+}
+
+#skill{
+    padding-top: 135px;
+}
+
+.skill-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.skill-container .skill-heading{
     text-align: center;
-    padding: 4px 130px;
+    padding: 0px 120px;
+}
+
+.skill-container .skill-heading h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.skill-container .skill-heading p{
     color: #757575;
     line-height: 30px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
-.my-work .programm{
-    width:97%;
+.skill-container .skill-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-container .skill-info .skill-card{
+    max-width: 220px;
+    padding: 21px;
+    box-shadow: 0 6px 9px #383737;
+    border-radius: 6px;
+}
+
+.skill-container .skill-info .skill-card img{
+    margin-bottom: 33px;
+}
+
+.skill-container .skill-info .skill-card h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.skill-container .skill-info .skill-card p{
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 50px;
+} 
+
+#summary{
+    padding-top: 134px;
+}
+
+.summary-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.summary-container .summary-heading{
+    text-align: center;
+}
+
+.summary-container .summary-heading h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 113px;
+}
+
+ .resume-container{
     display: flex;
     justify-content: space-between;
 }
 
-.my-work .programm .js{
-    width: 190px;   
-    padding: 20px;
-    border-radius: 7px;
-    box-shadow: 3px 4px 12px rgb(207, 205, 205);
+ .resume-container .resume-content{
+    max-width: 530px;
 }
 
-.my-work .programm .js:hover{
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    transform: translateY(5px);
-}
-.my-work .programm .js img{
-    padding-bottom: 26px
+.resume-heading{
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
-.my-work .programm .js h5{
-    font-size: 16px;
-    padding-bottom: 20px;
+.education h4{
+    margin-bottom: 10px;
+     color: #464444;
 }
 
-.my-work .programm .js p{
-    line-height: 30px;
+
+.education p{
     color: #757575;
+    line-height: 25px;
+    padding-right: 72px;
+}
+
+.resume-content hr{
+    margin: 30px 0px;
+}
+
+.education .name{
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.text-centre{
+    text-align: center;
+}
+
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+}
+
+.social{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social .connect-content{
+    max-width: 500px;
+}
+
+
+
+.social h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.social p{
+     color: #757575;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.connect-content img {
+    margin-right:24px;
+}
+
+
+.message-content{
+    width: 460px;
+}
+
+.message-content form input, textarea{
+    padding: 23px 10px;
+    width: 100%;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 5px;
 }
